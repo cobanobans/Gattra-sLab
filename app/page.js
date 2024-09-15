@@ -6,11 +6,12 @@ export default function Intro() {
     <div className='opacity-80 h-screen w-screen flex items-center justify-center'>
       <Image
         src='/image/background.jpg'
-        layout='fill'
+        className='object-cover'
+        fill
         alt='Picture of the author'
       />
       <div className='z-20 flex flex-col gap-20 items-center'>
-        <div className='text-8xl text-white font-sans uppercase flex flex-col items-end font-extrabold tracking-wider'>
+        <div className='md:text-8xl text-6xl text-white font-sans uppercase flex flex-col items-end font-extrabold tracking-wider'>
           <h1>Gattra's</h1>
           <h1>Lab</h1>
         </div>

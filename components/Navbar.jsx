@@ -24,12 +24,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-20 flex flex-row justify-between px-20 py-10 duration-300 ${textColor}`}
+      className={`fixed w-full z-20 flex flex-row justify-between px-5 md:px-20 py-10 duration-300 ${textColor}`}
     >
       <div className='uppercase text-3xl font-bold tracking-wider'>
         gattra's lab
       </div>
-      <div>
+      <div className='md:flex hidden'>
         <NavLinks />
       </div>
     </nav>
